@@ -1,7 +1,7 @@
 //jshint esversion:6 
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from './node_modules/react';
+import ReactDOM from './node_modules/react-dom';
 import App from './App';
 
 it('renders without crashing', () => {

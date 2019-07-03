@@ -1,6 +1,6 @@
 //jshint esversion:6 
 
-import React, { Component } from 'react';
+import React, { Component } from './node_modules/react';
 import './App.css';
 import GameBoard from './components/GameBoard/GameBoard';
 import ColorPicker from './components/ColorPicker/ColorPicker';
