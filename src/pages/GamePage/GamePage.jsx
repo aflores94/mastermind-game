@@ -1,5 +1,3 @@
-//jshint esversion:6
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import GameBoard from '../../components/GameBoard/GameBoard';
@@ -29,6 +27,7 @@ const GamePage = (props) => {
             handleTimerUpdate={props.handleTimerUpdate}
             isTiming={props.isTiming}
           />
+          <Link className='btn btn-default GamePage-link-margin' to='/high-scores'>High Scores</Link>
           <Link className='btn btn-default GamePage-link-margin' to='/settings'>Difficulty</Link>
           <NewGameButton handleNewGameClick={props.handleNewGameClick}/>
         </div>

@@ -1,5 +1,3 @@
-//jshint esversion:6
-
 import React, { Component } from 'react';
 import styles from './GameTimer.module.css';
 

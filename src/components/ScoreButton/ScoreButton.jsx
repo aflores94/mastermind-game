@@ -1,5 +1,3 @@
-//jshint esversion6
-
 import React from 'react';
 import styles from './ScoreButton.module.css';
 
