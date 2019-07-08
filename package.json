@@ -1,6 +1,9 @@
 {
   "name": "react-mastermind",
   "version": "0.1.0",
+  "engines": {
+    "node": "11.14.0"
+  },
   "private": true,
   "dependencies": {
     "dotenv": "^7.0.0",
