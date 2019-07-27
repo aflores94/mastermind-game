@@ -178,7 +178,7 @@ class App extends Component {
     let winTries = this.getWinTries();
     return (
       <div>
-        <header className='header-footer'>R E A C T &nbsp;&nbsp;&nbsp;  M A S T E R M I N D</header>
+        <header className='header-footer'> M A S T E R M I N D</header>
         <Switch>
           <Route exact path='/' render={() =>
             <GamePage
