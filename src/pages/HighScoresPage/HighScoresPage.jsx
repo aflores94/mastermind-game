@@ -27,7 +27,7 @@ class HighScoresPage extends Component {
         {this.props.scores.length ? 
           <table className={`${styles.table} table text-info`}>
             <thead>
-              <tr><th width={80}>#</th><th width={100}>Initials</th><th width={100}>Guesses</th><th>Seconds</th></tr>
+              <tr><th width={80}>#</th><th width={100}>Initials</th><th width={100}>Guesses</th><th>Time</th></tr>
             </thead>
             <tbody>
               {scoreRows}
